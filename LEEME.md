@@ -4,16 +4,32 @@ Sitio de ejemplo (navegable, sin backend) para **Pace Lab Crew**, club de runnin
 Muestra las tres etapas que imagina el club: (1) sitio con noticias, fotos y videos,
 (2) gestión de socios y cuotas con pago en línea, (3) tienda de merchandising.
 
-## Cómo abrirlo
+## Demo publicada (link para el cliente)
 
-Haz doble clic en **`index.html`** (tema oscuro). Para ver la versión clara abre
+| Tema | Enlace |
+|---|---|
+| Oscuro (principal) | https://alejandroaguil-byte.github.io/pacelabcrew-demo/ |
+| Claro | https://alejandroaguil-byte.github.io/pacelabcrew-demo/claro.html |
+
+Se publica desde el repositorio `alejandroaguil-byte/pacelabcrew-demo`: cada vez que
+se sube un cambio a la rama `main`, GitHub Pages actualiza el sitio en uno o dos minutos.
+
+## Cómo abrirlo en tu computador
+
+Haz doble clic en **`index.html`** (tema oscuro). Para la versión clara abre
 **`claro.html`**. No necesita servidor ni instalación.
 
 ```
-index.html      → versión principal, fondo negro (trae botón Claro/Oscuro)
-claro.html      → la misma página con el tema claro activado por defecto
-fotos/          → las fotos de ejemplo (ver fotos/CREDITOS.md)
+index.html            → versión principal, fondo negro (trae botón Claro/Oscuro)
+claro.html            → la misma página con el tema claro activado por defecto
+demo-un-archivo.html  → todo en un solo archivo, con las fotos incrustadas
+fotos/                → las fotos de ejemplo (ver fotos/CREDITOS.md)
 ```
+
+> **Ojo:** `index.html` necesita la carpeta `fotos/` al lado. Si abres el archivo en un
+> visor que no resuelve rutas relativas (o si lo mandas por correo suelto), vas a ver el
+> diseño sin fotos. Para esos casos usa **`demo-un-archivo.html`**, que pesa ~4 MB y
+> funciona solo, o comparte directamente el link de la demo publicada.
 
 Único recurso externo: las tipografías de Google Fonts (Anton y Plus Jakarta Sans).
 Todo lo demás (HTML, CSS, JavaScript, fotos) está en esta carpeta.
